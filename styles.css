@@ -1,0 +1,156 @@
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+body {
+background-color: #00906E;
+}
+
+div {
+display:flex;
+flex-direction: column;
+}
+
+.pics{
+margin-top: 80px;
+display: flex;
+align-items: :center;
+margin-left: auto;
+margin-right: auto;
+}
+
+.mainpics {
+  border-radius: 20%;
+  border: 3px solid grey;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.name {
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px;
+margin-bottom: 20px;
+font-size:80px;
+font-family: 'Josefin Sans', sans-serif;
+text-transform: lowercase;
+}
+
+.carl{
+transition: 1s ease;
+}
+
+.carl-text{
+  width: 200px;
+  height:20px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 5px;
+}
+
+#sad{
+transition: 1s ease;
+}
+
+#tropical .clickforwork{
+position: relative;
+bottom: 0px;
+left: 0px;
+visibility: hidden;
+}
+
+#tropical:hover .clickforwork{
+visibility: visible;
+}
+
+#carl:hover {
+    opacity: .5;
+    }
+
+#sad:hover{
+opacity: .5;
+}
+
+.sad-text{
+width: 200px;
+height:20px;
+margin-top: 10px;
+margin-right: auto;
+margin-left: auto;
+  border-radius: 5px;
+}
+
+#tropical {
+  border-radius: 20%;
+  border: 3px solid grey;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+
+  .carl-button{
+width: 300px;
+height: 300px;
+font-style: 'Josefin Sans', sans-serif;
+opacity:0;
+border-radius: 20%;
+  }
+
+ .one .carl-button {
+   position: absolute;
+   top: 68%;
+   left:28%;
+   transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+ }
+
+ .first{
+display: flex;
+justify-content: space-between;
+margin-left: 20%;
+margin-right: 20%;
+ }
+
+.mess {
+width: 200px;
+height: auto;
+object-fit: cover;
+
+}
+
+.header{
+display: flex;
+flex-direction: row;
+
+}
+
+.inspiration{
+margin: auto;
+margin-top: 10px;
+padding: 3px;
+font-size: 20px;
+}
+
+
+/* student page photo gallery  */
+
+.uconn{
+width: 200px;
+height: 200px;
+border-radius: 20%;
+}
+
+.return{
+width: 100px;
+height: 100px;
+object-fit: cover;
+}
